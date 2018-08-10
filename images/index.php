@@ -1,3 +1,2 @@
 <?php
   // root protect
-?>

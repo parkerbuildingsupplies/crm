@@ -22,7 +22,7 @@
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link href="./css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
 
@@ -30,7 +30,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light">
           <a class="navbar-brand" href="./">
-            <span class="d-inline-block"><img src="./images/logo.png" class="pbs-logo" alt="Logo"></span>
+            <span class="d-inline-block"><img src="images/logo.png" class="pbs-logo" alt="Logo"></span>
           </a>
           <span class="navbar-brand mr-auto">CRM</span>
 
@@ -44,7 +44,7 @@
                 <span class="pbs-user">Welcome: <strong><?php	echo $_SESSION['username']; ?></strong></span>
     					  <a href="index.php?logout='1'" class="btn btn-pbs pbs-dropdwn-100">Logout</a>
               <?php else : ?>
-                <a class="btn btn-pbs pbs-dropdwn-100" href="./login.php" role="button">Login</a>
+                <a class="btn btn-pbs pbs-dropdwn-100" href="login.php" role="button">Login</a>
               <?php endif ?>
             </div>
           </div>
