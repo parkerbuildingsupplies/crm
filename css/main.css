@@ -1,0 +1,99 @@
+/* ====================== *\
+    global
+\* ====================== */
+body {
+  background-color: #F7F7F9;
+}
+.btn-pbs {
+  color: #fff;
+  background-color: #44A8AB;
+  border-color: #44A8AB;
+}
+.btn-pbs:hover {
+  color: #fff;
+  background-color: #3C999A;
+  border-color: #3C999A;
+}
+
+/* ====================== *\
+    grid for xxl
+\* ====================== */
+@media (max-width: 1365.98px) {
+	.container-fluid {
+		max-width: 1152px;
+	}
+}
+@media (min-width: 1366px) and (max-width: 1439.98px) {
+	.container-fluid {
+		max-width: 1280px;
+	}
+}
+@media (min-width: 1440px) {
+	.container-fluid {
+		max-width: 1366px;
+	}
+}
+
+/* ====================== *\
+    header
+\* ====================== */
+header {
+
+}
+header .navbar {
+  padding: 15px 0px;
+}
+@media (max-width: 767.98px) {
+  header .pbs-dropdwn-100 {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+header .pbs-logo {
+  height: 80px;
+  width: auto;
+}
+@media (max-width: 767.98px) {
+  header .pbs-logo {
+    height: 60px;
+    width: auto;
+  }
+}
+header .pbs-user {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  header .pbs-user {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+/* ====================== *\
+    main
+\* ====================== */
+main {
+  padding: 30px 0px;
+}
+@media (max-width: 767.98px) {
+  main .pbs-dropdwn-100 {
+    width: 100%;
+  }
+}
+
+/* ====================== *\
+    footer
+\* ====================== */
+footer {
+  background-color: #2C3E50;
+  border-top: solid 5px #44A8AB;
+  color: #FFFFFF;
+  padding: 30px 0px;
+}
