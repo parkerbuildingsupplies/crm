@@ -5,7 +5,7 @@
             <span>&copy; <?php echo date('Y'); ?> Parker Building Supplies Ltd. All Rights Reserved.</span>
           </div>
           <div class="col-md-auto col-12 text-md-right text-center">
-            <span>Powered by our <a href="https://github.com/parkerbuildingsupplies/crm-system" target="_blank" class="text-white">CRM System</a></span>
+            <span>Powered by our <a href="https://github.com/parkerbuildingsupplies/crm" target="_blank" class="text-white">CRM System</a></span>
           </div>
         </div>
         </div>

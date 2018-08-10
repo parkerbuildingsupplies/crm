@@ -1,4 +1,6 @@
 <?php
+
+	// start session if not running
 	if(!isset($_SESSION)) {
   	session_start();
   }
