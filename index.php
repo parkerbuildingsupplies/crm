@@ -15,7 +15,7 @@
     <script src="js/livesearch.js"></script>
 
     <main class="container-fluid">
-      <div class="bg-white shadow-sm p-4">
+      <div class="bg-white shadow-sm p-4 rounded">
 
         <!-- logged in user information -->
     		<?php if (isset($_SESSION['username'])) : ?>

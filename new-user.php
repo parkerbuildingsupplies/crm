@@ -4,7 +4,7 @@
 ?>
 
 		<main class="container-fluid">
-			<div class="bg-white shadow-sm p-4">
+			<div class="bg-white shadow-sm p-4 rounded">
 
 				<h4>Create new user</h4>
 				<hr class="mb-4">
